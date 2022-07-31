@@ -176,9 +176,7 @@ class CameraViewController: UIViewController {
                    
             }
             let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-            let content = (try? FileManager.default.contentsOfDirectory(at: path, includingPropertiesForKeys: nil)) ?? []
-            let filecount = content.filter{$0.lastPathComponent.hasSuffix(".csv")}.count
-            let filename = path.appendingPathComponent("data\(filecount).csv")
+            let filename = path.appendingPathComponent("data_\(Date.now.timeIntervalSince1970).csv")
             do {
                 try str.joined(separator: "\n").write(to: filename, atomically: true, encoding: .utf8)
                 SVProgressHUD.showSuccess(withStatus: "Saved")

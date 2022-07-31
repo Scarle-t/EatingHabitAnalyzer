@@ -13,28 +13,10 @@
 		10224B582087E43100A77316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10224B572087E43100A77316 /* ViewController.swift */; };
 		10224B762087E5A900A77316 /* grace_hopper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10224B702087E5A900A77316 /* grace_hopper.jpg */; };
 		1077670E210FBBB6007A19A7 /* liberty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1077670D210FBBB6007A19A7 /* liberty.jpg */; };
-		1077670F210FBBB6007A19A7 /* liberty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1077670D210FBBB6007A19A7 /* liberty.jpg */; };
-		10E114E420E5CBAA0013E4A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E114E320E5CBAA0013E4A4 /* AppDelegate.m */; };
-		10E114E720E5CBAA0013E4A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E114E620E5CBAA0013E4A4 /* ViewController.m */; };
-		10E114F220E5CBAE0013E4A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E114F120E5CBAE0013E4A4 /* main.m */; };
-		10E1151420EBF5EB0013E4A4 /* UIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1151320EBF5EB0013E4A4 /* UIUtilities.m */; };
-		10E1151720EBF6220013E4A4 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1151620EBF6220013E4A4 /* CameraViewController.m */; };
-		10E1151A20EBF7E10013E4A4 /* UIImage+VisionDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1151920EBF7E10013E4A4 /* UIImage+VisionDetection.m */; };
-		10E1152120F3D5F60013E4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB287B3C20729CE90069707A /* Main.storyboard */; };
-		10E1152520F3DFE20013E4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1001E6FC20CF0C8F00445CB3 /* Assets.xcassets */; };
-		10E1152620F3E0930013E4A4 /* grace_hopper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10224B702087E5A900A77316 /* grace_hopper.jpg */; };
-		10E1152720F3E0960013E4A4 /* barcode_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 7202DC6620D0C1A300034C35 /* barcode_128.png */; };
-		10E1152820F3E0990013E4A4 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7202DC6720D0C1A300034C35 /* beach.jpg */; };
-		10E1152920F3E09C0013E4A4 /* image_has_text.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7202DC6520D0C1A300034C35 /* image_has_text.jpg */; };
-		10E1152A20F3E09F0013E4A4 /* qr_code.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7202DC6420D0C1A300034C35 /* qr_code.jpg */; };
 		1BB7EC7226AB69660082BEE8 /* chinese_sparse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7EC6E26AB69650082BEE8 /* chinese_sparse.png */; };
-		1BB7EC7326AB69660082BEE8 /* chinese_sparse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7EC6E26AB69650082BEE8 /* chinese_sparse.png */; };
 		1BB7EC7426AB69660082BEE8 /* japanese_sparse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7EC6F26AB69650082BEE8 /* japanese_sparse.png */; };
-		1BB7EC7526AB69660082BEE8 /* japanese_sparse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7EC6F26AB69650082BEE8 /* japanese_sparse.png */; };
 		1BB7EC7626AB69660082BEE8 /* devanagari_sparse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7EC7026AB69650082BEE8 /* devanagari_sparse.png */; };
-		1BB7EC7726AB69660082BEE8 /* devanagari_sparse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7EC7026AB69650082BEE8 /* devanagari_sparse.png */; };
 		1BB7EC7826AB69660082BEE8 /* korean_sparse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7EC7126AB69660082BEE8 /* korean_sparse.png */; };
-		1BB7EC7926AB69660082BEE8 /* korean_sparse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7EC7126AB69660082BEE8 /* korean_sparse.png */; };
 		4ADD356323BAC29A001277A7 /* MLKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10224B5B2087E49F00A77316 /* MLKitExtensions.swift */; };
 		7202DC6920D0C1A300034C35 /* qr_code.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7202DC6420D0C1A300034C35 /* qr_code.jpg */; };
 		7202DC6A20D0C1A300034C35 /* image_has_text.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7202DC6520D0C1A300034C35 /* image_has_text.jpg */; };
@@ -42,15 +24,14 @@
 		7202DC6C20D0C1A300034C35 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7202DC6720D0C1A300034C35 /* beach.jpg */; };
 		86352F316C9A510EEC18E8E3 /* Pods_VisionExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6258FC0AD800C1FAFCA0DB /* Pods_VisionExample.framework */; };
 		A4F89299243BB4BF00B58767 /* bird.tflite in Resources */ = {isa = PBXBuildFile; fileRef = A4F89297243BB4BE00B58767 /* bird.tflite */; };
-		A4F8929A243BB4BF00B58767 /* bird.tflite in Resources */ = {isa = PBXBuildFile; fileRef = A4F89297243BB4BE00B58767 /* bird.tflite */; };
 		A4F8929B243BB4BF00B58767 /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4F89298243BB4BF00B58767 /* bird.jpg */; };
-		A4F8929C243BB4BF00B58767 /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4F89298243BB4BF00B58767 /* bird.jpg */; };
 		A634DA9E2891956A0003F470 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634DA9D2891956A0003F470 /* SettingsView.swift */; };
+		A64507152896A8C1002DA21B /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64507142896A8C1002DA21B /* RecordView.swift */; };
+		A64507172896B600002DA21B /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64507162896B600002DA21B /* Record.swift */; };
 		A6922E8E2892FF6B00529C6F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6922E8D2892FF6B00529C6F /* MenuView.swift */; };
 		A6922E90289306BA00529C6F /* MealFoodTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6922E8F289306BA00529C6F /* MealFoodTypeView.swift */; };
 		BB287B3920729CE90069707A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB287B3820729CE90069707A /* AppDelegate.swift */; };
 		BB287B3E20729CE90069707A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB287B3C20729CE90069707A /* Main.storyboard */; };
-		CB37FD624B794A4A379923A0 /* Pods_VisionExampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE40F645284617303DDAE18 /* Pods_VisionExampleObjC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,18 +43,6 @@
 		10224B5B2087E49F00A77316 /* MLKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLKitExtensions.swift; sourceTree = "<group>"; };
 		10224B702087E5A900A77316 /* grace_hopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grace_hopper.jpg; path = Resources/grace_hopper.jpg; sourceTree = "<group>"; };
 		1077670D210FBBB6007A19A7 /* liberty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liberty.jpg; sourceTree = "<group>"; };
-		10E114E020E5CBAA0013E4A4 /* VisionExampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionExampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		10E114E220E5CBAA0013E4A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		10E114E320E5CBAA0013E4A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		10E114E520E5CBAA0013E4A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		10E114E620E5CBAA0013E4A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		10E114F120E5CBAE0013E4A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		10E1151220EBF5EB0013E4A4 /* UIUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIUtilities.h; sourceTree = "<group>"; };
-		10E1151320EBF5EB0013E4A4 /* UIUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIUtilities.m; sourceTree = "<group>"; };
-		10E1151520EBF6220013E4A4 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		10E1151620EBF6220013E4A4 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
-		10E1151820EBF7E10013E4A4 /* UIImage+VisionDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+VisionDetection.h"; sourceTree = "<group>"; };
-		10E1151920EBF7E10013E4A4 /* UIImage+VisionDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VisionDetection.m"; sourceTree = "<group>"; };
 		1BB7EC6E26AB69650082BEE8 /* chinese_sparse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chinese_sparse.png; path = Resources/chinese_sparse.png; sourceTree = "<group>"; };
 		1BB7EC6F26AB69650082BEE8 /* japanese_sparse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = japanese_sparse.png; path = Resources/japanese_sparse.png; sourceTree = "<group>"; };
 		1BB7EC7026AB69650082BEE8 /* devanagari_sparse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = devanagari_sparse.png; path = Resources/devanagari_sparse.png; sourceTree = "<group>"; };
@@ -87,6 +56,8 @@
 		A4F89297243BB4BE00B58767 /* bird.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = bird.tflite; path = Resources/bird.tflite; sourceTree = "<group>"; };
 		A4F89298243BB4BF00B58767 /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bird.jpg; path = Resources/bird.jpg; sourceTree = "<group>"; };
 		A634DA9D2891956A0003F470 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A64507142896A8C1002DA21B /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		A64507162896B600002DA21B /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		A6922E8D2892FF6B00529C6F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		A6922E8F289306BA00529C6F /* MealFoodTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFoodTypeView.swift; sourceTree = "<group>"; };
 		A6E1F414D45AC0CCEC8A4711 /* Pods-VisionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionExample.debug.xcconfig"; path = "Target Support Files/Pods-VisionExample/Pods-VisionExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,14 +70,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		10E114DD20E5CBAA0013E4A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB37FD624B794A4A379923A0 /* Pods_VisionExampleObjC.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BB287B3220729CE90069707A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,24 +100,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		10E114E120E5CBAA0013E4A4 /* VisionExampleObjC */ = {
-			isa = PBXGroup;
-			children = (
-				10E114E220E5CBAA0013E4A4 /* AppDelegate.h */,
-				10E114E320E5CBAA0013E4A4 /* AppDelegate.m */,
-				10E114E520E5CBAA0013E4A4 /* ViewController.h */,
-				10E114E620E5CBAA0013E4A4 /* ViewController.m */,
-				10E114F120E5CBAE0013E4A4 /* main.m */,
-				10E1151220EBF5EB0013E4A4 /* UIUtilities.h */,
-				10E1151320EBF5EB0013E4A4 /* UIUtilities.m */,
-				10E1151520EBF6220013E4A4 /* CameraViewController.h */,
-				10E1151620EBF6220013E4A4 /* CameraViewController.m */,
-				10E1151820EBF7E10013E4A4 /* UIImage+VisionDetection.h */,
-				10E1151920EBF7E10013E4A4 /* UIImage+VisionDetection.m */,
-			);
-			path = VisionExampleObjC;
-			sourceTree = "<group>";
-		};
 		469AD7FC825E0D7DA9385C58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +115,6 @@
 				1001E6FC20CF0C8F00445CB3 /* Assets.xcassets */,
 				10224B642087E52600A77316 /* Resources */,
 				BB287B3720729CE90069707A /* VisionExample */,
-				10E114E120E5CBAA0013E4A4 /* VisionExampleObjC */,
 				BB287B3620729CE90069707A /* Products */,
 				F04C177C4B5FAD9CCA259D83 /* Pods */,
 				469AD7FC825E0D7DA9385C58 /* Frameworks */,
@@ -181,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				BB287B3520729CE90069707A /* VisionExample.app */,
-				10E114E020E5CBAA0013E4A4 /* VisionExampleObjC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,6 +142,8 @@
 				A634DA9D2891956A0003F470 /* SettingsView.swift */,
 				A6922E8D2892FF6B00529C6F /* MenuView.swift */,
 				A6922E8F289306BA00529C6F /* MealFoodTypeView.swift */,
+				A64507142896A8C1002DA21B /* RecordView.swift */,
+				A64507162896B600002DA21B /* Record.swift */,
 			);
 			path = VisionExample;
 			sourceTree = "<group>";
@@ -225,26 +170,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		10E114DF20E5CBAA0013E4A4 /* VisionExampleObjC */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10E1150F20E5CBAE0013E4A4 /* Build configuration list for PBXNativeTarget "VisionExampleObjC" */;
-			buildPhases = (
-				EC364CB8E44E8ABEA371812A /* [CP] Check Pods Manifest.lock */,
-				10E114DC20E5CBAA0013E4A4 /* Sources */,
-				10E114DD20E5CBAA0013E4A4 /* Frameworks */,
-				10E114DE20E5CBAA0013E4A4 /* Resources */,
-				6F367200681924EE559C3D38 /* [CP] Embed Pods Frameworks */,
-				4C983E70E65BC1211D99567E /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = VisionExampleObjC;
-			productName = VisionExampleObjC;
-			productReference = 10E114E020E5CBAA0013E4A4 /* VisionExampleObjC.app */;
-			productType = "com.apple.product-type.application";
-		};
 		BB287B3420729CE90069707A /* VisionExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB287B4720729CE90069707A /* Build configuration list for PBXNativeTarget "VisionExample" */;
@@ -275,10 +200,6 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Google Inc.";
 				TargetAttributes = {
-					10E114DF20E5CBAA0013E4A4 = {
-						CreatedOnToolsVersion = 9.4;
-						ProvisioningStyle = Automatic;
-					};
 					BB287B3420729CE90069707A = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1020;
@@ -300,33 +221,11 @@
 			projectRoot = "";
 			targets = (
 				BB287B3420729CE90069707A /* VisionExample */,
-				10E114DF20E5CBAA0013E4A4 /* VisionExampleObjC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		10E114DE20E5CBAA0013E4A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BB7EC7326AB69660082BEE8 /* chinese_sparse.png in Resources */,
-				10E1152120F3D5F60013E4A4 /* Main.storyboard in Resources */,
-				1BB7EC7526AB69660082BEE8 /* japanese_sparse.png in Resources */,
-				10E1152520F3DFE20013E4A4 /* Assets.xcassets in Resources */,
-				10E1152720F3E0960013E4A4 /* barcode_128.png in Resources */,
-				10E1152820F3E0990013E4A4 /* beach.jpg in Resources */,
-				10E1152620F3E0930013E4A4 /* grace_hopper.jpg in Resources */,
-				10E1152920F3E09C0013E4A4 /* image_has_text.jpg in Resources */,
-				1BB7EC7726AB69660082BEE8 /* devanagari_sparse.png in Resources */,
-				A4F8929C243BB4BF00B58767 /* bird.jpg in Resources */,
-				10E1152A20F3E09F0013E4A4 /* qr_code.jpg in Resources */,
-				1BB7EC7926AB69660082BEE8 /* korean_sparse.png in Resources */,
-				A4F8929A243BB4BF00B58767 /* bird.tflite in Resources */,
-				1077670F210FBBB6007A19A7 /* liberty.jpg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BB287B3320729CE90069707A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,84 +328,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionExample/Pods-VisionExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4C983E70E65BC1211D99567E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionExampleObjC/Pods-VisionExampleObjC-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitFaceDetection/GoogleMVFaceDetectorResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitImageLabeling/MLKitImageLabelingResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitObjectDetection/MLKitObjectDetectionResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitObjectDetectionCommon/MLKitObjectDetectionCommonResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitPoseDetection/MLKitPoseDetectionFastResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitPoseDetectionAccurate/MLKitPoseDetectionAccurateResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitPoseDetectionCommon/MLKitPoseDetectionCommonResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitSegmentationCommon/MLKitSegmentationCommonResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitSegmentationSelfie/MLKitSegmentationSelfieResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitTextRecognition/LatinOCRResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitTextRecognitionChinese/ChineseOCRResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitTextRecognitionDevanagari/DevanagariOCRResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitTextRecognitionJapanese/JapaneseOCRResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitTextRecognitionKorean/KoreanOCRResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitXenoCommon/MLKitXenoResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVFaceDetectorResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLKitImageLabelingResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLKitObjectDetectionResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLKitObjectDetectionCommonResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLKitPoseDetectionFastResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLKitPoseDetectionAccurateResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLKitPoseDetectionCommonResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLKitSegmentationCommonResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLKitSegmentationSelfieResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LatinOCRResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ChineseOCRResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DevanagariOCRResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JapaneseOCRResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KoreanOCRResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLKitXenoResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionExampleObjC/Pods-VisionExampleObjC-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6F367200681924EE559C3D38 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionExampleObjC/Pods-VisionExampleObjC-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionExampleObjC/Pods-VisionExampleObjC-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A8B73378E4DB06AD5D5EA72E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -529,49 +350,16 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EC364CB8E44E8ABEA371812A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VisionExampleObjC-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10E114DC20E5CBAA0013E4A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10E1151720EBF6220013E4A4 /* CameraViewController.m in Sources */,
-				10E1151A20EBF7E10013E4A4 /* UIImage+VisionDetection.m in Sources */,
-				10E114E720E5CBAA0013E4A4 /* ViewController.m in Sources */,
-				10E114F220E5CBAE0013E4A4 /* main.m in Sources */,
-				10E1151420EBF5EB0013E4A4 /* UIUtilities.m in Sources */,
-				10E114E420E5CBAA0013E4A4 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BB287B3120729CE90069707A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A6922E8E2892FF6B00529C6F /* MenuView.swift in Sources */,
+				A64507152896A8C1002DA21B /* RecordView.swift in Sources */,
+				A64507172896B600002DA21B /* Record.swift in Sources */,
 				A6922E90289306BA00529C6F /* MealFoodTypeView.swift in Sources */,
 				10224B582087E43100A77316 /* ViewController.swift in Sources */,
 				1001E6F920CF021E00445CB3 /* CameraViewController.swift in Sources */,
@@ -596,38 +384,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		10E1150920E5CBAE0013E4A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59F2C8FA3E8A27EDAE2178E3 /* Pods-VisionExampleObjC.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7WC44F9Y8F;
-				INFOPLIST_FILE = "$(SRCROOT)/VisionExample/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.mlkit.quickstart.VisionExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 arm64e";
-			};
-			name = Debug;
-		};
-		10E1150A20E5CBAE0013E4A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA28E2A9444B1B5943E44761 /* Pods-VisionExampleObjC.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7WC44F9Y8F;
-				INFOPLIST_FILE = "$(SRCROOT)/VisionExample/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.mlkit.quickstart.VisionExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 arm64e";
-			};
-			name = Release;
-		};
 		BB287B4520729CE90069707A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -788,15 +544,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10E1150F20E5CBAE0013E4A4 /* Build configuration list for PBXNativeTarget "VisionExampleObjC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10E1150920E5CBAE0013E4A4 /* Debug */,
-				10E1150A20E5CBAE0013E4A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BB287B3020729CE90069707A /* Build configuration list for PBXProject "VisionExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

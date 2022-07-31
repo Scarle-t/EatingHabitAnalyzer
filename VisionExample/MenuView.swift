@@ -39,16 +39,18 @@ class MenuView: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        var v: UIViewController!
         switch indexPath.row {
         case 0:
-            let meal = storyboard?.instantiateViewController(withIdentifier: "mealTypeView") as! MealTypeView
-            navigationController?.pushViewController(meal, animated: true)
+            v = storyboard?.instantiateViewController(withIdentifier: "mealTypeView") as! MealTypeView
+        case 1:
+            v = storyboard?.instantiateViewController(withIdentifier: "recordView") as! RecordView
         case 2:
-            let setting = storyboard?.instantiateViewController(withIdentifier: "setting") as! SettingsView
-            navigationController?.pushViewController(setting, animated: true)
+            v = storyboard?.instantiateViewController(withIdentifier: "setting") as! SettingsView
         default:
-            break
+            return
         }
+        navigationController?.pushViewController(v, animated: true)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

@@ -7,12 +7,20 @@
 		<key>VisionExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>51</integer>
-		</dict>
-		<key>VisionExampleObjC.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
 			<integer>52</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>10E114DF20E5CBAA0013E4A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB287B3420729CE90069707A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
